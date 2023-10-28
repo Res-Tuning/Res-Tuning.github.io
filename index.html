@@ -1,0 +1,2660 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: October 28, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.ba41b28df816eedea319cbf1376eaaf4.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Res-Tuning: A Flexible and Efficient Tuning Paradigm via Unbinding Tuner from Backbone" />
+
+
+
+
+
+  
+
+<meta name="description" content="restuning" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/" />
+<link rel="canonical" href="https://example.com/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu04386ef46309c12e1426946407f413a0_16423_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu04386ef46309c12e1426946407f413a0_16423_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#4caf50" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://example.com/media/icon_hu04386ef46309c12e1426946407f413a0_16423_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Res-Tuning" />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:title" content="Res-Tuning" />
+<meta property="og:description" content="restuning" /><meta property="og:image" content="https://example.com/media/icon_hu04386ef46309c12e1426946407f413a0_16423_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://example.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://example.com/"
+}
+</script>
+
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Res-Tuning" />
+  
+
+  
+
+
+  
+  <title>Res-Tuning</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Res-Tuning</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Res-Tuning</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#home" data-target="#home"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#features" data-target="#features"><span>Features</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#quantitative" data-target="#quantitative"><span>Quantitative</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#qualitative" data-target="#qualitative"><span>Qualitative</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#more" data-target="#more"><span>More</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#concat" data-target="#concat"><span>Concat</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="home" class="home-section wg-about-avatar  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div id="profile">
+
+  <div class="portrait-title">
+
+    <h2>Res-Tuning: A Flexible and Efficient Tuning Paradigm via Unbinding Tuner from Backbone</h2>
+
+
+
+    
+
+    <h3>
+      
+      
+      <span style="font-weight:bold";>Zeyinzi Jiang</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Chaojie Mao</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Ziyuan Huang</span>
+      
+      <sup>2</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Ao Ma</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Yiliang Lv</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Yujun Shen</span>
+      
+      <sup>3</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Deli Zhao</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+      
+      <span style="font-weight:bold";>Jingren Zhou</span>
+      
+      <sup>1</sup>
+      &nbsp;
+      
+    </h3>
+
+
+
+    <h3>
+      
+      <sup>1</sup>
+      <a href="https://www.alibabagroup.com/en-US" target="_blank" rel="noopener">
+      <span>Alibaba Group</span>
+      </a>
+      &nbsp;
+      
+      <sup>2</sup>
+      <a href="https://arc.nus.edu.sg/" target="_blank" rel="noopener">
+      <span>National University of Singapore</span>
+      </a>
+      &nbsp;
+      
+      <sup>3</sup>
+      <a href="https://www.antgroup.com/en" target="_blank" rel="noopener">
+      <span>Ant Group</span>
+      </a>
+      &nbsp;
+      
+    </h3>
+
+  </div>
+
+  <ul class="network-icon" aria-hidden="true">
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    <li>
+      <a href="/"  aria-label="arxiv"
+         >
+
+        <img src="/media/icons/arxiv.svg" alt="arxiv" class="fa bigicon" loading="lazy" style="height:2rem" >
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    <li>
+      <a href="/"  aria-label="github"
+         >
+
+        <img src="/media/icons/github.svg" alt="github" class="fa bigicon" loading="lazy" style="height:2rem" >
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://modelscope.cn/my/overview" target="_blank" rel="noopener" aria-label="modelscope"
+         >
+
+        <img src="/media/icons/modelscope.svg" alt="modelscope" class="fa bigicon" loading="lazy" style="height:2rem" >
+      </a>
+    </li>
+    
+  </ul>
+
+  
+  <div class="article-style pt-2 d-flex justify-content-center">
+    <div class="bio-text hyphens">
+      <h1 id="abstract">Abstract</h1>
+<p style="text-align: justify;line-height: 185%">Parameter-efficient tuning has become a trend in transferring large-scale foundation models to downstream applications.
+Existing methods typically <em>embed</em> some light-weight tuners into the backbone, where both the design and the learning of the tuners are highly dependent on the base model.
+This work offers a new tuning paradigm, dubbed <strong>Res-Tuning</strong>, which intentionally <em>unbinds</em> tuners from the backbone.
+With both theoretical and empirical evidence, we show that popular tuning approaches have their equivalent counterparts under our unbinding formulation, and hence can be integrated into our framework effortlessly.
+Thanks to the structural disentanglement, we manage to free the design of tuners from the network architecture, facilitating flexible combination of various tuning strategies.
+We further propose a memory-efficient variant of <strong>Res-Tuning</strong>, where the bypass (<em>i.e.</em>, formed by a sequence of tuners) is effectively detached from the main branch, such that the gradients are back-propagated only to the tuners but not to the backbone.
+Such a detachment also allows one-time backbone forward for multi-task inference.
+Extensive experiments on both discriminative and generative tasks demonstrate the superiority of our method over existing alternatives from the perspectives of efficacy and efficiency.</p>
+
+    </div>
+  </div>
+  
+
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="features" class="home-section wg-features  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Features</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+
+    
+    <div class="featurette-img"><img src="/media/feat1.png" alt="feat1.png" class="featured-image" loading="lazy"></div>
+    
+
+    <div class="section-subheading">Flexible</div>
+    <p><em><strong>Res-Tuner</strong></em> : unbinds tuners from backbone</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+
+    
+    <div class="featurette-img"><img src="/media/feat2.png" alt="feat2.png" class="featured-image" loading="lazy"></div>
+    
+
+    <div class="section-subheading">Parameter-Efficient</div>
+    <p><em><strong>Res-Tuning</strong></em> : unified formulation</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+
+    
+    <div class="featurette-img"><img src="/media/feat3.png" alt="feat3.png" class="featured-image" loading="lazy"></div>
+    
+
+    <div class="section-subheading">Memory &amp; Parameter-Efficient</div>
+    <p><em><strong>Res-Tuning-Bypass</strong></em> : backpropagation only on Bypass</p>
+  </div>
+  
+
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="quantitative" class="home-section wg-portfolio  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Quantitative Results</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar d-flex justify-content-center">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All Tasks</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-discriminative" class="btn btn-primary btn-lg">Discriminative</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-generative" class="btn btn-primary btn-lg">Generative</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+      
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      
+        
+
+        
+          <div class="col-12 isotope-item js-id-discriminative">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-5">
+      <div class="section-subheading article-title mb-0 mt-0 justify-content-center align-items-center ">Performance and efficiency</div>
+
+      
+      <div class="article-style">
+        Comparison on the VTAB-1K benchmark with ViT-B/16 models pre-trained on ImageNet-21K
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-7 order-first  justify-content-center align-items-center">
+
+      
+
+      
+        
+        
+          <img src="/task/discriminative/featured.jpg" height="1186" width="2472"
+              alt="Performance and efficiency" loading="lazy">
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+
+        
+          <div class="col-12 isotope-item js-id-generative">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-5">
+      <div class="section-subheading article-title mb-0 mt-0 justify-content-center align-items-center ">Performance and efficiency</div>
+
+      
+      <div class="article-style">
+        Comparison of FID on COCO2017 dataset
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-7 order-first order-md-2 justify-content-center align-items-center">
+
+      
+
+      
+        
+        
+          <img src="/task/generative/featured.jpg" height="566" width="1862"
+              alt="Performance and efficiency" loading="lazy">
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+
+  </div>
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="qualitative" class="home-section wg-portfolio  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Qualitative Results</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar d-flex justify-content-center">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-coco" class="btn btn-primary btn-lg">COCO</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-fgvc" class="btn btn-primary btn-lg">FGVC</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+      
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      
+        
+
+        
+          <div class="col-12 isotope-item js-id-coco">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-5">
+      <div class="section-subheading article-title mb-0 mt-0 justify-content-center align-items-center ">Tuning strategies on generative task</div>
+
+      
+      <div class="article-style">
+        Comparison on COCO2017 validation set
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-7 order-first  justify-content-center align-items-center">
+
+      
+
+      
+        
+        
+          <img src="/visualization/coco1/featured.png" height="663" width="1316"
+              alt="Tuning strategies on generative task" loading="lazy">
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+
+        
+          <div class="col-12 isotope-item js-id-fgvc">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-5">
+      <div class="section-subheading article-title mb-0 mt-0 justify-content-center align-items-center ">Tuning strategies on generative task</div>
+
+      
+      <div class="article-style">
+        Comparison on Oxford Flowers fine-grained dataset
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-7 order-first order-md-2 justify-content-center align-items-center">
+
+      
+
+      
+        
+        
+          <img src="/visualization/fgvc1/featured.png" height="669" width="1329"
+              alt="Tuning strategies on generative task" loading="lazy">
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+
+  </div>
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="more" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">More Visualizations</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <center>More generated visualizations on COCO, NABirds, Stanford Dogs, Stanford Cars, Aircraft, SUN397 and Food-101</center>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gallery-grid">
+
+  
+  
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_1.png" >
+      <img src="/media/albums/visualization/_coco_1_hufca875f4e77e6a4d41ad83dd1e797660_467606_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_1.png" width="480" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_2.png" >
+      <img src="/media/albums/visualization/_coco_2_hu2d895ee4664a5dbab97c0631d61e5610_426192_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_2.png" width="482" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_3.png" >
+      <img src="/media/albums/visualization/_coco_3_hue5b6443b67f1e3f1932c72d8dbd82419_479959_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_3.png" width="480" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_4.png" >
+      <img src="/media/albums/visualization/_coco_4_huab40793fd07ef12cc33b993e718a0593_491244_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_4.png" width="480" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_5.png" >
+      <img src="/media/albums/visualization/_coco_5_hue28e1aa0d062dcdb1484451ff32ece24_524825_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_5.png" width="480" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/_coco_6.png" >
+      <img src="/media/albums/visualization/_coco_6_hu58f84f339f923f4f5db5c174f73abd5b_512255_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="_coco_6.png" width="482" height="480">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/airplane_2.png" >
+      <img src="/media/albums/visualization/airplane_2_hu27c2bfcb2316d6f6f9fb4bc91cb6cb14_195679_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="airplane_2.png" width="362" height="362">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/bird_2.png" >
+      <img src="/media/albums/visualization/bird_2_hu485262a4e89274d4dafcd8529c6c2db4_267174_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="bird_2.png" width="360" height="362">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/car_1.png" >
+      <img src="/media/albums/visualization/car_1_hua13dff1c3016ac95c4e4f18d6fa0f1cf_209548_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="car_1.png" width="362" height="362">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/dog_1.png" >
+      <img src="/media/albums/visualization/dog_1_huc9ffb27fb69ad74932492d05769e130a_277155_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="dog_1.png" width="362" height="360">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/food_1.png" >
+      <img src="/media/albums/visualization/food_1_hu8224d6c1e47c44f01ac48743c76763b0_230767_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="food_1.png" width="362" height="362">
+    </a>
+  </div>
+  
+    
+    
+    
+    
+    
+  
+  
+  <div class="gallery-item gallery-item--medium">
+    <a data-fancybox="gallery-visualization" href="/media/albums/visualization/place_1.png" >
+      <img src="/media/albums/visualization/place_1_hube2b384489624ef0eb186f7a6f919584_221365_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="place_1.png" width="360" height="362">
+    </a>
+  </div>
+  
+
+</div>
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="concat" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Concat</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12 col-lg-8">
+    <ul class="network-icon" aria-hidden="true"><li><a href="mailto:zeyinzi.jzyz@alibaba-inc.com"><i class="fas fa-envelope"></i></a></li></ul>
+If you have any question, please contact <a href="mailto:zeyinzi.jzyz@alibaba-inc.com"><b>zeyinzi.jzyz@alibaba-inc.com</b></a>
+<br/>
+<ul class="network-icon" aria-hidden="true"><li><a href="mailto:chaojie.mcj@alibaba-inc.com"><i class="fas fa-envelope"></i></a></li></ul>
+If you're looking for an exciting challenge and the opportunity to work with cutting-edge technologies in <b>AIGC</b> and <b>foundation model</b>, then we are the place for you. We are looking for talented, motivated and creative individuals to join our team. If you are interested, please send your CV to <a href="mailto:chaojie.mcj@alibaba-inc.com"><b>chaojie.mcj@alibaba-inc.com</b></a>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="citation" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Citation</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12 col-lg-8">
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-BibTeX" data-lang="BibTeX"><span class="line"><span class="cl"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">jiang2023restuning</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">title</span><span class="p">=</span><span class="s">{Res-Tuning: A Flexible and Efficient Tuning Paradigm via Unbinding Tuner from Backbone}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">author</span><span class="p">=</span><span class="s">{Jiang, Zeyinzi and Mao, Chaojie and Huang, Ziyuan and Ma, Ao and Lv, Yiliang and Shen Yujun and Zhao, Deli and Zhou, Jingren}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Advances in Neural Information Processing Systems}</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">year</span><span class="p">=</span><span class="s">{2023}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Res-Tuning. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+  
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.3322c0d94f0e691b0b24c63f4c41064b.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
